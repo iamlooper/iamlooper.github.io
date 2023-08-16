@@ -1,6 +1,8 @@
 /* Styling for the body */
 html, body {
   font-family: 'Open Sans', sans-serif;
+  background-color: black;
+  color: white;
 }
 
 /* Add spacing between buttons of social links */
