@@ -7,6 +7,9 @@ const inter = Fira_Code({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Looper | Developer Profile",
   description: "A simple developer profile of Looper.",
+  icons: {
+    icon: "/favicon.png"
+  }
 };
 
 export default function RootLayout({
