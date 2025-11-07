@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* MUI CSS Variables are automatically generated, no need to manually define them */
+:root {
+  color-scheme: light;
+}
+
+[data-mui-color-scheme="dark"] {
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-mui-color-scheme]) {
+    color-scheme: dark;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Google Sans", "Helvetica", "Arial", sans-serif;
+}
+
+/* Ensure smooth transitions for theme changes */
+* {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
